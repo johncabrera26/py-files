@@ -1,10 +1,10 @@
 def readFile(name):
-  # return file
-  return ""
+   with open(name,"r", encoding="utf-8") as file:
+      return file.read() 
 
 def wordCount(text):
-  # return count
-  return 0
+  
+  return len(text.split())
 
 def uniqueWordCount(text):
   # return count
